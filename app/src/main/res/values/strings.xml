@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="news_image_intro">A captivating visual introduction to news stories, using images to engage and inform readers quickly and effectively.</string>
+    <string name="news_navigate">A seamless navigation experience for news content, enabling users to easily explore and discover articles that interest them.</string>
+    <string name="news_navigate_world">A global perspective on news navigation, highlighting the importance of accessing and understanding diverse sources and viewpoints.</string>
+    <string name="news_revolution">News media has transformed society, shaping opinions, driving change, and empowering individuals through access to information.</string>
+    <string name="start">Start</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="saved">Saved</string>
+    <string name="search">search</string>
+    <string name="news_pro">News Pro</string>
+    <string name="trending">Trending</string>
+    <string name="allNews">All News</string>
+    <string name="sources">Sources</string>
+    <string name="top_sources">Top Sources</string>
+    <string name="filter">Filter</string>
+    <string name="apply">Apply</string>
+</resources>

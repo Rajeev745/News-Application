@@ -1,0 +1,71 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+    </style>
+
+    <style name="Theme.NewsApplication" parent="Base.Theme.NewsApplication" />
+
+    <style name="Theme.MyApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_news_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsApplication</item>
+        <item name="windowSplashScreenAnimationDuration">5000</item>
+    </style>
+
+    <style name="text_description" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_error_description" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">26sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/deep_red</item>
+    </style>
+
+    <style name="news_headline_text" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_heading" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="news_timeline_text" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+
+    <style name="text_tab_unselected" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_news_source" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_tab_selected" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/color_primary</item>
+    </style>
+
+    <style name="text_button_one" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
